@@ -1,0 +1,30 @@
+O que é microsserviços ?
+
+Microsserviços são um tipo inovador de arquitetura de software, que consiste em construir aplicações desmembrando-as em serviços independentes. Estes serviços se comunicam entre si usando APIs e promovem grande agilidade em times de desenvolvimento.
+
+Visão geral da arquitetura Monolítica e de Microsserviços
+
+A arquitetura monolítica traz dentro da engenharia de software um histórico de sistemas legados e equipes frustradas com a complexidade de manutenção esses sistemas. Do outro lado, a arquitetura de microsserviços é capaz de fornecer uma série de benefícios almejados por diversas empresas. Esse contexto leva essas empresas a optarem por adotar ou migrar seus sistemas para a arquitetura de microsserviços. 
+
+
+Os benefícios da arquitetura de microsserviços - Cite 3 exemplos
+
+-Simplicidade para implantar e atualizar
+Uma das grandes vantagens dos microsserviços é simplificar a implementação e a atualização de sistemas. Como funciona baseado em containers independentes, o sistema pode ser facilmente modificado. Por exemplo, caso aconteça algum problema em um microsserviço, o restante do sistema não será prejudicado, já que a questão será tratada de modo isolado.
+
+-Flexibilidade para usar diferentes tecnologias
+Uma vantagem dos microsserviços é a flexibilidade que permite que sejam utilizados dentro do sistema diferentes linguagens de programação, estruturas e ambientes. Assim, o sistema pode ser projetado de maneira que as suas partes tenham o melhor desempenho e perfomance possível.
+
+-Disponibilidade para continuar funcionando
+A disponibilidade é a capacidade de um sistema continuar trabalhando, funcionando. A arquitetura de microserviços está ligada à alta disponibilidade porque permite que os microsserviços sejam replicados de acordo com os interesses e os objetivos do sistema.
+
+Quais são os tipos de comunicação entre os microsserviços ?
+
+-Comunicação por HTTP
+O líder absoluto ao escolher como os serviços se comunicarão entre si tende a ser HTTP, as chamadas HTTP entre serviços são uma opção viável para a comunicação serviço a serviço.
+
+-Comunicação por Mensagens
+Outro padrão de comunicação que podemos aproveitar em uma arquitetura de micro serviço é a comunicação baseada em mensagens.
+
+-Comunicação Orientada a Eventos
+O padrão final de comunicação que iremos ver neste artigo, é o padrão orientado a eventos. Essa é outra abordagem assíncrona e parece remover completamente o acoplamento entre serviços.
